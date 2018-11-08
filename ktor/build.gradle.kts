@@ -36,5 +36,6 @@ dependencies {
     compile(kotlin("stdlib-jdk8"))
     compile("io.ktor:ktor-server-netty:$ktorVersion")
     compile("ch.qos.logback:logback-classic:1.2.3")
+    compile("io.ktor:ktor-jackson:$ktorVersion")
     testCompile(group = "junit", name = "junit", version = "4.12")
 }
